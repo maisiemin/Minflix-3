@@ -1,0 +1,157 @@
+@import "./global.css";
+
+.profile-wrapper {
+    width: 100%;
+    height: 23%;
+    /* border: 1px solid white; */
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-box {
+    width: 6.8rem;
+    height: 6.8rem;
+    /* border: 1px solid red; */
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+.add-profile-bt {
+    background-color: rgb(172, 171, 171);
+    cursor: pointer;
+}
+
+.plus-bt {
+    position: absolute;
+    top: 2.7rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.replay-wrapper {
+    padding: 1rem;
+}
+
+.replay-content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.replay-content-box {
+    width: 14rem;
+    height: 10rem;
+    background-color: var(--dark-purple);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 1rem 0.5rem 0rem 0rem;
+}
+
+.replay-img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.replay-title {
+    margin-top: 0.6rem;
+}
+
+.replay-text {
+    margin-top: -1rem;
+}
+
+.line {
+    border-bottom: 3px solid var(--dark-purple);
+    margin-top: 2rem;
+}
+
+.wish-wrapper {
+    width: 100%;
+    height: 41%;
+    padding: 1rem;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+.wish-text {
+    margin-top: -1.5rem;
+}
+
+.wish-movie-wrapper {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wish-movie-box {
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--dark-purple);
+    border-radius: 7px;
+    /* padding: 0.3rem; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.wish-movie-box img {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 15px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.wish-movie-text-wrapper {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.wish-movie-title {
+    font-size: 18px;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+.wish-movie-actor {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.play-bt {
+    font-size: 2.7rem;
+    position: absolute;
+    left: calc(70% + 2.2rem);
+    cursor: pointer;
+}
