@@ -1,0 +1,91 @@
+@import "./global.css";
+
+
+.header {
+    width: 100%;
+    height: 35%;
+    background-image: url(../img/login-img.png);
+    background-position: left;
+}
+
+.title_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_main {
+    color: var(--purple);
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.title_sub {
+    color: rgb(233, 230, 230);
+    margin-top: 0.2rem;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+
+#login_id, #login_pw {
+    width: 80%;
+    margin-bottom: 1.2rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid var(--border);
+    color: white;
+    font-size: 16px;
+    background-color: var(--background-purple);
+}
+
+.login_form input[type="text"] {
+    transition: all 0.3s ease-in-out;
+}
+
+.login_form input:focus {
+    border-bottom: white;
+}
+
+
+.login_bt_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+.login_bt {
+    width: 75%;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--dark-purple);
+    color: rgb(236, 234, 234);
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+.login_bt:active {
+    background-color: var(--purple);
+}
+
+.login_subText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: var(--border);
+    margin-top: 3px;
+}
+
+.login_subText p {
+    margin: 10px;
+    cursor: pointer;
+}
